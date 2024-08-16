@@ -50,7 +50,7 @@ When('attempt login with incorrect credentials', () => {
   cy.screenshot('login-failed-incorrect-credentials');
 
   // Verify error message
-  // cy.contains('Invalid email or password').should('be.visible');
+  cy.contains('Invalid email or password').should('be.visible');
 
   // Clear inputs
   cy.get('input[name="email"]').clear();
