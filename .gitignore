@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+# Cypress artifacts
+cypress/screenshots/
+cypress/videos/
+cypress/fixtures/
+cypress/coverage/
+cypress/results/
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+out/
+
+# Misc
+*.bak
+*.tmp
+*.swp
+*.swo
+*.pid
+*.seed
+*.tmp
+*.gzip
+
+# Package lock file (if you want to ignore)
+package-lock.json
+yarn.lock
+
+# Optional: Ignore coverage folder created by tools like Istanbul
+coverage/
+
+# Optional: Ignore reports from testing tools
+*.xml
+*.json
+
+# Optional: Ignore Docker files
+docker-compose.yml
+Dockerfile
